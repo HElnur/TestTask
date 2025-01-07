@@ -17,11 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\TestTask.Domain\TestTask.Domain.csproj" />
+    <ProjectReference Include="..\TestTask.Application\TestTask.Application.csproj" />
   </ItemGroup>
 
 </Project>

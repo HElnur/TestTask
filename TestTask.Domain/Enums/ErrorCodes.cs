@@ -9,14 +9,14 @@ namespace TestTask.Domain.Enums
 {
     public enum ErrorCodes
     {
-        [Description("Email or password is incorrect.")]
-        EMAIL_OR_PASSWORD_IS_NOT_CORRECT = 1_0_0,
+        [Description("Invalid username or password.")]
+        NAME_OR_PASSWORD_IS_NOT_CORRECT = 1_0_0,
 
-        [Description("Password is incorrect")]
-        PASSWORD_IS_INCORRECT = 1_1_0,
+        [Description("User already exists.")]
+        USER_ALREADY_EXISTS = 1_1_0,
 
-        [Description("Information not found.")]
-        INFORMATION_NOT_FOUND = 2_1_1,
+        [Description("Data not found.")]
+        DATA_NOT_FOUND = 2_1_1,
 
         [Description("This data is already exist.")]
         DATA_IS_ALREADY_EXIST = 2_1_2,
