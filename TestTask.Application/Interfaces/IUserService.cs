@@ -13,7 +13,7 @@ namespace TestTask.Application.Interfaces
     {
         Task<RegisterResponse> Register(RegisterRequest request);
         Task<LoginResponse> Login(LoginRequest request);
-        Task<List<GetResponse>> Get();
+        Task<List<GetResponse>> Get(GetRequest request);
         Task<GetResponse> GetMe();
     }
 }
